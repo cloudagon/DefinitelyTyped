@@ -82,6 +82,7 @@ declare namespace convict {
         env?: string;
         arg?: string;
         sensitive?: boolean;
+        nullable?: boolean;
         [key: string]: any;
     }
 
